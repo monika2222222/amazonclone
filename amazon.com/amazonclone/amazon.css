@@ -1,0 +1,400 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    color: rgb(255, 255, 255);
+}
+
+.navbar {
+    height: 60px;
+    background-color: rgb(23, 35, 47);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    position: relative;
+    top: 5px;
+    left: 8px;
+    height: 35px;
+    width: 80px;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo_container {
+    position: relative;
+    top: 2px;
+    left: 8px;
+    height: 42px;
+    width: 96px;
+}
+
+.logo_container:hover {
+    border: 1px solid #f3f3f3;
+    cursor: pointer;
+}
+
+.subloc {
+    display: flex;
+    height: 70px;
+    width: 100px;
+}
+
+.location {
+    height: 30px;
+    width: 70px;
+    padding: 6px;
+}
+
+.location:hover {
+    border: 1px solid #f3f3f3;
+    cursor: pointer;
+}
+
+.search_bar {
+    display: flex;
+}
+
+.sublistitem {
+    height: 39px;
+    width: 50px;
+    background-color: #f3f3f3;
+    text-align: center;
+    text-decoration: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.sublistitem:hover {
+    cursor: pointer;
+}
+
+.input_box {
+    height: 39px;
+    width: 400px;
+    border: none;
+}
+
+.search {
+    height: 39px;
+    width: 40px;
+    background-color: rgb(215, 182, 110);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+}
+
+.search:hover {
+    cursor: pointer;
+    background-color: rgb(205, 161, 68);
+}
+
+.lang:hover {
+    cursor: pointer;
+    border: 1px solid #f3f3f3;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 5px;
+    padding-right: 2px;
+}
+
+.lang2:hover {
+    cursor: pointer;
+}
+
+.lang2 {
+    color: white;
+    border: none;
+    background-color: rgb(23, 35, 47);
+    font-weight: bold;
+}
+
+.acc1 {
+    margin-left: 5px;
+    ;
+    font-size: 12px;
+}
+
+.acc2 {
+    font-size: 14px;
+    background-color: rgb(23, 35, 47);
+    border: none;
+    font-weight: bold;
+}
+
+.nav-acc:hover {
+    cursor: pointer;
+    border: 1px solid #f3f3f3;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 2px;
+}
+
+.return {
+    font-size: 12px;
+}
+
+.order {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.ret_order:hover {
+    cursor: pointer;
+    border: 1px solid #f3f3f3;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 2px;
+}
+
+.cart {
+    margin-left: 3px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cart_block {
+    display: flex;
+    margin-right: 10px;
+}
+
+.cart_block:hover {
+    cursor: pointer;
+    border: 1px solid #f3f3f3;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 5px;
+    padding-right: 2px;
+}
+
+.nav2 {
+    text-align: center;
+    font-size: 13px;
+    height: 40px;
+    background-color: rgb(37, 51, 65);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#all_button {
+    background-color: rgb(37, 51, 65);
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+}
+
+.nav2_button {
+    margin-right: 12px;
+}
+
+.nav2_button:hover {
+    border: 1px solid #f3f3f3;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.heropage {
+    background-image: url(hero.jpg);
+    height: 84vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.disclamer {
+    height: 40px;
+    width: 97%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.disc_box {
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.card {
+    height: 900px;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.card1 {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card2 {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box_item {
+    height: 420px;
+    width: 287px;
+    background-color: rgb(236, 238, 247);
+    text-align: center;
+}
+
+.label {
+    margin-top: 20px;
+    color: black;
+    font-size: 21px;
+    height: 27px;
+    width: 287px;
+}
+
+.box {
+    height: 300px;
+    width: 247px;
+    margin-top: 15px;
+    margin-left: 17px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.signin {
+    height: 170px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signinblock {
+    height: 100px;
+    width: 75vw;
+    text-align: center;
+}
+
+.sign {
+
+    height: 28px;
+    width: 230px;
+    background-color: rgb(223, 176, 73);
+    margin-left: 350px;
+    text-shadow: 0 1px 0 #ffe093;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+}
+
+.sign:hover {
+    cursor: pointer;
+}
+
+.foot1 {
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+    background-color: #004B91;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot1:hover {
+    background-color: #0a579f;
+}
+
+.footer1 {
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(37, 51, 65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer1 p {
+    font-size: 14px;
+}
+
+.footer h2 {
+    font-size: 14px;
+}
+
+.foot2 {
+    height: 110px;
+    width: 100%;
+    background-color: rgb(37, 51, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.lasticon {
+    font-size: 13px;
+    display: flex;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 4px;
+    height:20px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.outlast {
+    display: flex;
+}
+
+.lastlogo {
+    height: 35px;
+    width: 80px;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 100px;
+    position: relative;
+    top:9px;
+}
+.end{
+    height:80vh;
+    width:100%;
+    background-color:rgb(21, 27, 35);
+}
+.down{
+    height:15vh;
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+.finisher{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 12px;
+
+}
